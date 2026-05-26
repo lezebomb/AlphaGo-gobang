@@ -141,8 +141,14 @@ class LightweightPolicyValueNet(object):
         if move not in board.availables:
             return False
         original = board.states.get(move)
+        was_available = move in board.availables
         board.states[move] = player
+        if was_available:
+            board.availables.remove(move)
         win, winner = board.has_a_winner()
+        if was_available:
+            board.availables.append(move)
+            board.availables.sort()
         if original is None:
             del board.states[move]
         else:

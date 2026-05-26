@@ -3,7 +3,7 @@
     "board": "10x10",
     "n_in_row": 5,
     "model_file": "lightweight_policy_10x10.json",
-    "playouts": 35,
+    "playouts": 80,
     "seed": 20260522
   },
   "first_move_probe": {
@@ -22,22 +22,6 @@
         "prob": 1.0
       },
       {
-        "move": 55,
-        "display_location": [
-          5,
-          6
-        ],
-        "prob": 0.0
-      },
-      {
-        "move": 54,
-        "display_location": [
-          5,
-          5
-        ],
-        "prob": 0.0
-      },
-      {
         "move": 45,
         "display_location": [
           6,
@@ -50,80 +34,272 @@
   "matches": {
     "ai_vs_random": {
       "summary": {
-        "games": 4,
-        "ai_wins": 4,
+        "games": 20,
+        "ai_wins": 20,
         "opponent_wins": 0,
         "ties": 0,
         "score": 1.0,
         "score_first": 1.0,
         "score_second": 1.0,
-        "avg_moves": 9.5,
-        "avg_elapsed_sec": 1.473,
-        "avg_sec_per_move": 0.155
+        "avg_moves": 10.3,
+        "avg_elapsed_sec": 2.336,
+        "avg_sec_per_move": 0.226
       },
       "games": [
         {
           "winner": 1,
           "moves": 9,
-          "elapsed_sec": 1.36,
+          "elapsed_sec": 1.265,
           "start_player": 0
         },
         {
           "winner": 1,
           "moves": 10,
-          "elapsed_sec": 1.546,
+          "elapsed_sec": 1.05,
           "start_player": 1
         },
         {
           "winner": 1,
           "moves": 9,
-          "elapsed_sec": 1.383,
+          "elapsed_sec": 2.055,
           "start_player": 0
         },
         {
           "winner": 1,
           "moves": 10,
-          "elapsed_sec": 1.604,
+          "elapsed_sec": 2.308,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 9,
+          "elapsed_sec": 2.22,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 12,
+          "elapsed_sec": 2.881,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 9,
+          "elapsed_sec": 2.189,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 14,
+          "elapsed_sec": 3.554,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 11,
+          "elapsed_sec": 2.802,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 10,
+          "elapsed_sec": 1.75,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 11,
+          "elapsed_sec": 2.832,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 10,
+          "elapsed_sec": 2.343,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 9,
+          "elapsed_sec": 2.202,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 12,
+          "elapsed_sec": 2.803,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 9,
+          "elapsed_sec": 2.261,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 10,
+          "elapsed_sec": 2.04,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 11,
+          "elapsed_sec": 2.964,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 12,
+          "elapsed_sec": 2.699,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 9,
+          "elapsed_sec": 2.325,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 10,
+          "elapsed_sec": 2.183,
           "start_player": 1
         }
       ]
     },
     "ai_vs_tactical": {
       "summary": {
-        "games": 4,
-        "ai_wins": 3,
-        "opponent_wins": 0,
-        "ties": 1,
-        "score": 0.875,
+        "games": 20,
+        "ai_wins": 13,
+        "opponent_wins": 7,
+        "ties": 0,
+        "score": 0.65,
         "score_first": 1.0,
-        "score_second": 0.75,
-        "avg_moves": 47.5,
-        "avg_elapsed_sec": 13.486,
-        "avg_sec_per_move": 0.283
+        "score_second": 0.3,
+        "avg_moves": 30.95,
+        "avg_elapsed_sec": 9.562,
+        "avg_sec_per_move": 0.31
       },
       "games": [
         {
           "winner": 1,
-          "moves": 33,
-          "elapsed_sec": 9.861,
+          "moves": 25,
+          "elapsed_sec": 8.262,
           "start_player": 0
         },
         {
-          "winner": -1,
-          "moves": 100,
-          "elapsed_sec": 28.299,
+          "winner": 2,
+          "moves": 41,
+          "elapsed_sec": 10.405,
           "start_player": 1
         },
         {
           "winner": 1,
-          "moves": 31,
-          "elapsed_sec": 9.105,
+          "moves": 25,
+          "elapsed_sec": 8.356,
+          "start_player": 0
+        },
+        {
+          "winner": 2,
+          "moves": 41,
+          "elapsed_sec": 12.203,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 25,
+          "elapsed_sec": 8.439,
+          "start_player": 0
+        },
+        {
+          "winner": 2,
+          "moves": 41,
+          "elapsed_sec": 12.826,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 25,
+          "elapsed_sec": 8.809,
+          "start_player": 0
+        },
+        {
+          "winner": 2,
+          "moves": 39,
+          "elapsed_sec": 11.799,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 25,
+          "elapsed_sec": 7.62,
+          "start_player": 0
+        },
+        {
+          "winner": 2,
+          "moves": 41,
+          "elapsed_sec": 12.842,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 25,
+          "elapsed_sec": 7.683,
           "start_player": 0
         },
         {
           "winner": 1,
-          "moves": 26,
-          "elapsed_sec": 6.68,
+          "moves": 30,
+          "elapsed_sec": 8.52,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 25,
+          "elapsed_sec": 6.582,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 32,
+          "elapsed_sec": 10.422,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 25,
+          "elapsed_sec": 7.353,
+          "start_player": 0
+        },
+        {
+          "winner": 2,
+          "moves": 39,
+          "elapsed_sec": 12.58,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 25,
+          "elapsed_sec": 8.334,
+          "start_player": 0
+        },
+        {
+          "winner": 2,
+          "moves": 49,
+          "elapsed_sec": 15.076,
+          "start_player": 1
+        },
+        {
+          "winner": 1,
+          "moves": 25,
+          "elapsed_sec": 9.21,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 16,
+          "elapsed_sec": 3.924,
           "start_player": 1
         }
       ]
@@ -131,48 +307,48 @@
   },
   "playout_sweep": [
     {
-      "playouts": 15,
-      "summary": {
-        "games": 2,
-        "ai_wins": 2,
-        "opponent_wins": 0,
-        "ties": 0,
-        "score": 1.0,
-        "score_first": 1.0,
-        "score_second": 1.0,
-        "avg_moves": 28.5,
-        "avg_elapsed_sec": 3.617,
-        "avg_sec_per_move": 0.123
-      }
-    },
-    {
       "playouts": 30,
       "summary": {
-        "games": 2,
-        "ai_wins": 1,
-        "opponent_wins": 1,
-        "ties": 0,
-        "score": 0.5,
-        "score_first": 1.0,
-        "score_second": 0.0,
-        "avg_moves": 46.0,
-        "avg_elapsed_sec": 12.379,
-        "avg_sec_per_move": 0.261
+        "games": 10,
+        "ai_wins": 3,
+        "opponent_wins": 2,
+        "ties": 5,
+        "score": 0.55,
+        "score_first": 0.8,
+        "score_second": 0.3,
+        "avg_moves": 61.9,
+        "avg_elapsed_sec": 6.283,
+        "avg_sec_per_move": 0.095
       }
     },
     {
-      "playouts": 50,
+      "playouts": 60,
       "summary": {
-        "games": 2,
-        "ai_wins": 1,
+        "games": 10,
+        "ai_wins": 7,
         "opponent_wins": 1,
-        "ties": 0,
-        "score": 0.5,
+        "ties": 2,
+        "score": 0.8,
         "score_first": 1.0,
-        "score_second": 0.0,
-        "avg_moves": 28.0,
-        "avg_elapsed_sec": 10.277,
-        "avg_sec_per_move": 0.364
+        "score_second": 0.6,
+        "avg_moves": 43.8,
+        "avg_elapsed_sec": 8.586,
+        "avg_sec_per_move": 0.185
+      }
+    },
+    {
+      "playouts": 100,
+      "summary": {
+        "games": 10,
+        "ai_wins": 5,
+        "opponent_wins": 1,
+        "ties": 4,
+        "score": 0.7,
+        "score_first": 1.0,
+        "score_second": 0.4,
+        "avg_moves": 54.4,
+        "avg_elapsed_sec": 16.447,
+        "avg_sec_per_move": 0.288
       }
     }
   ]
