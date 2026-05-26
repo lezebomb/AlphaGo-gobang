@@ -1,0 +1,110 @@
+{
+  "config": {
+    "board": "6x6",
+    "n_in_row": 4,
+    "model_file": "best_policy_6_6_4.model",
+    "alpha_playouts": 20,
+    "pure_mcts_playouts": 20,
+    "seed": 20260521
+  },
+  "first_move_probe": {
+    "selected_move": 14,
+    "selected_location": [
+      2,
+      2
+    ],
+    "top5": [
+      {
+        "move": 15,
+        "location": [
+          2,
+          3
+        ],
+        "prob": 0.3333
+      },
+      {
+        "move": 14,
+        "location": [
+          2,
+          2
+        ],
+        "prob": 0.3333
+      },
+      {
+        "move": 20,
+        "location": [
+          3,
+          2
+        ],
+        "prob": 0.3333
+      },
+      {
+        "move": 21,
+        "location": [
+          3,
+          3
+        ],
+        "prob": 0.0
+      }
+    ]
+  },
+  "self_play_probe": {
+    "winner": 1,
+    "raw_samples": 7,
+    "augmented_samples_if_training": 56,
+    "moves": 7,
+    "elapsed_sec": 0.181
+  },
+  "matches": {
+    "alpha_vs_random": {
+      "summary": {
+        "games": 2,
+        "alpha_wins": 2,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "avg_moves": 7.5,
+        "avg_elapsed_sec": 0.175
+      },
+      "games": [
+        {
+          "winner": 1,
+          "moves": 7,
+          "elapsed_sec": 0.194,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 8,
+          "elapsed_sec": 0.157,
+          "start_player": 1
+        }
+      ]
+    },
+    "alpha_vs_pure_mcts": {
+      "summary": {
+        "games": 2,
+        "alpha_wins": 2,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "avg_moves": 7.5,
+        "avg_elapsed_sec": 0.137
+      },
+      "games": [
+        {
+          "winner": 1,
+          "moves": 7,
+          "elapsed_sec": 0.147,
+          "start_player": 0
+        },
+        {
+          "winner": 1,
+          "moves": 8,
+          "elapsed_sec": 0.126,
+          "start_player": 1
+        }
+      ]
+    }
+  }
+}

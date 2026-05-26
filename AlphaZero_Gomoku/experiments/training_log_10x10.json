@@ -1,0 +1,291 @@
+{
+  "config": {
+    "board": "10x10",
+    "n_in_row": 5,
+    "self_play_games": 24,
+    "self_play_playouts": 20,
+    "eval_games": 6,
+    "eval_playouts": 30,
+    "seed": 20260522
+  },
+  "before_eval": {
+    "random": {
+      "games": 6,
+      "ai_wins": 6,
+      "opponent_wins": 0,
+      "ties": 0,
+      "score": 1.0,
+      "avg_moves": 9.83
+    },
+    "tactical": {
+      "games": 6,
+      "ai_wins": 5,
+      "opponent_wins": 0,
+      "ties": 1,
+      "score": 0.917,
+      "avg_moves": 40.83
+    }
+  },
+  "games": [
+    {
+      "game": 1,
+      "winner": 1,
+      "moves": 35,
+      "samples": 35,
+      "buffer": 35,
+      "policy_loss": 1.7135,
+      "value_loss": 0.1199
+    },
+    {
+      "game": 2,
+      "winner": 2,
+      "moves": 12,
+      "samples": 12,
+      "buffer": 47,
+      "policy_loss": 2.0695,
+      "value_loss": 0.2204
+    },
+    {
+      "game": 3,
+      "winner": 1,
+      "moves": 13,
+      "samples": 13,
+      "buffer": 60,
+      "policy_loss": 2.2655,
+      "value_loss": 0.2533
+    },
+    {
+      "game": 4,
+      "winner": 2,
+      "moves": 24,
+      "samples": 24,
+      "buffer": 84,
+      "policy_loss": 2.3466,
+      "value_loss": 0.6605
+    },
+    {
+      "game": 5,
+      "winner": 1,
+      "moves": 13,
+      "samples": 13,
+      "buffer": 97,
+      "policy_loss": 2.4094,
+      "value_loss": 0.6143
+    },
+    {
+      "game": 6,
+      "winner": 1,
+      "moves": 11,
+      "samples": 11,
+      "buffer": 108,
+      "policy_loss": 2.4272,
+      "value_loss": 0.5719
+    },
+    {
+      "game": 7,
+      "winner": 1,
+      "moves": 13,
+      "samples": 13,
+      "buffer": 121,
+      "policy_loss": 2.4903,
+      "value_loss": 0.5394
+    },
+    {
+      "game": 8,
+      "winner": 1,
+      "moves": 27,
+      "samples": 27,
+      "buffer": 148,
+      "policy_loss": 2.522,
+      "value_loss": 0.4853
+    },
+    {
+      "game": 9,
+      "winner": 2,
+      "moves": 16,
+      "samples": 16,
+      "buffer": 164,
+      "policy_loss": 2.4713,
+      "value_loss": 0.623
+    },
+    {
+      "game": 10,
+      "winner": 2,
+      "moves": 22,
+      "samples": 22,
+      "buffer": 186,
+      "policy_loss": 2.4231,
+      "value_loss": 0.8595
+    },
+    {
+      "game": 11,
+      "winner": 1,
+      "moves": 33,
+      "samples": 33,
+      "buffer": 219,
+      "policy_loss": 2.4093,
+      "value_loss": 1.0504
+    },
+    {
+      "game": 12,
+      "winner": 1,
+      "moves": 15,
+      "samples": 15,
+      "buffer": 234,
+      "policy_loss": 2.4104,
+      "value_loss": 1.0006
+    },
+    {
+      "game": 13,
+      "winner": 1,
+      "moves": 33,
+      "samples": 33,
+      "buffer": 267,
+      "policy_loss": 2.3781,
+      "value_loss": 0.8969
+    },
+    {
+      "game": 14,
+      "winner": 1,
+      "moves": 15,
+      "samples": 15,
+      "buffer": 282,
+      "policy_loss": 2.383,
+      "value_loss": 0.8595
+    },
+    {
+      "game": 15,
+      "winner": 1,
+      "moves": 9,
+      "samples": 9,
+      "buffer": 291,
+      "policy_loss": 2.3998,
+      "value_loss": 0.8383
+    },
+    {
+      "game": 16,
+      "winner": 2,
+      "moves": 22,
+      "samples": 22,
+      "buffer": 313,
+      "policy_loss": 2.4093,
+      "value_loss": 0.8695
+    },
+    {
+      "game": 17,
+      "winner": 1,
+      "moves": 25,
+      "samples": 25,
+      "buffer": 338,
+      "policy_loss": 2.3893,
+      "value_loss": 0.813
+    },
+    {
+      "game": 18,
+      "winner": 1,
+      "moves": 15,
+      "samples": 15,
+      "buffer": 353,
+      "policy_loss": 2.4122,
+      "value_loss": 0.8173
+    },
+    {
+      "game": 19,
+      "winner": 1,
+      "moves": 9,
+      "samples": 9,
+      "buffer": 362,
+      "policy_loss": 2.4192,
+      "value_loss": 0.8012
+    },
+    {
+      "game": 20,
+      "winner": 2,
+      "moves": 28,
+      "samples": 28,
+      "buffer": 390,
+      "policy_loss": 2.4074,
+      "value_loss": 0.9075
+    },
+    {
+      "game": 21,
+      "winner": 1,
+      "moves": 15,
+      "samples": 15,
+      "buffer": 405,
+      "policy_loss": 2.4026,
+      "value_loss": 0.8885
+    },
+    {
+      "game": 22,
+      "winner": 2,
+      "moves": 14,
+      "samples": 14,
+      "buffer": 419,
+      "policy_loss": 2.3987,
+      "value_loss": 0.8979
+    },
+    {
+      "game": 23,
+      "winner": 1,
+      "moves": 15,
+      "samples": 15,
+      "buffer": 434,
+      "policy_loss": 2.4032,
+      "value_loss": 0.8874
+    },
+    {
+      "game": 24,
+      "winner": 1,
+      "moves": 17,
+      "samples": 17,
+      "buffer": 451,
+      "policy_loss": 2.3985,
+      "value_loss": 0.8706
+    }
+  ],
+  "after_eval": {
+    "random": {
+      "games": 6,
+      "ai_wins": 6,
+      "opponent_wins": 0,
+      "ties": 0,
+      "score": 1.0,
+      "avg_moves": 9.5
+    },
+    "tactical": {
+      "games": 6,
+      "ai_wins": 5,
+      "opponent_wins": 1,
+      "ties": 0,
+      "score": 0.833,
+      "avg_moves": 34.33
+    }
+  },
+  "elapsed_sec": 312.675,
+  "model_out": "models\\lightweight_policy_10x10.json",
+  "final_action_weights": [
+    7.9983,
+    7.1871,
+    2.2323,
+    1.7806,
+    0.8683,
+    0.8165,
+    4.8838,
+    4.4118,
+    2.2281,
+    1.9451,
+    0.4965,
+    1.0942
+  ],
+  "final_value_weights": [
+    1.564,
+    -1.4572,
+    2.7822,
+    -2.7722,
+    1.2017,
+    -1.1843,
+    0.2307,
+    0.3571
+  ]
+}

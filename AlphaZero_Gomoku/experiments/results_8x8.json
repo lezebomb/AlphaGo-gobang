@@ -1,0 +1,342 @@
+{
+  "config": {
+    "board": "8x8",
+    "n_in_row": 5,
+    "model_file": "best_policy_8_8_5.model",
+    "alpha_playouts": 120,
+    "pure_mcts_playouts": 120,
+    "seed": 20260521
+  },
+  "first_move_probe": {
+    "selected_move": 28,
+    "selected_location": [
+      3,
+      4
+    ],
+    "top5": [
+      {
+        "move": 28,
+        "location": [
+          3,
+          4
+        ],
+        "prob": 1.0
+      },
+      {
+        "move": 36,
+        "location": [
+          4,
+          4
+        ],
+        "prob": 0.0
+      },
+      {
+        "move": 27,
+        "location": [
+          3,
+          3
+        ],
+        "prob": 0.0
+      },
+      {
+        "move": 35,
+        "location": [
+          4,
+          3
+        ],
+        "prob": 0.0
+      }
+    ]
+  },
+  "self_play_probe": {
+    "winner": 1,
+    "raw_samples": 23,
+    "augmented_samples_if_training": 184,
+    "moves": 23,
+    "elapsed_sec": 5.17
+  },
+  "matches": {
+    "alpha_vs_random": {
+      "summary": {
+        "games": 12,
+        "alpha_wins": 12,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "alpha_score_first": 1.0,
+        "alpha_score_second": 1.0,
+        "avg_moves": 9.5,
+        "avg_elapsed_sec": 2.067,
+        "avg_sec_per_move": 0.218
+      },
+      "sample_game": {
+        "winner": 1,
+        "moves": 9,
+        "elapsed_sec": 1.222,
+        "transcript": [
+          {
+            "player": 1,
+            "move": 28,
+            "location": [
+              3,
+              4
+            ]
+          },
+          {
+            "player": 2,
+            "move": 4,
+            "location": [
+              0,
+              4
+            ]
+          },
+          {
+            "player": 1,
+            "move": 35,
+            "location": [
+              4,
+              3
+            ]
+          },
+          {
+            "player": 2,
+            "move": 26,
+            "location": [
+              3,
+              2
+            ]
+          },
+          {
+            "player": 1,
+            "move": 42,
+            "location": [
+              5,
+              2
+            ]
+          },
+          {
+            "player": 2,
+            "move": 31,
+            "location": [
+              3,
+              7
+            ]
+          },
+          {
+            "player": 1,
+            "move": 21,
+            "location": [
+              2,
+              5
+            ]
+          },
+          {
+            "player": 2,
+            "move": 39,
+            "location": [
+              4,
+              7
+            ]
+          },
+          {
+            "player": 1,
+            "move": 49,
+            "location": [
+              6,
+              1
+            ]
+          }
+        ],
+        "start_player": 0
+      }
+    },
+    "alpha_vs_heuristic": {
+      "summary": {
+        "games": 12,
+        "alpha_wins": 12,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "alpha_score_first": 1.0,
+        "alpha_score_second": 1.0,
+        "avg_moves": 10.5,
+        "avg_elapsed_sec": 2.552,
+        "avg_sec_per_move": 0.245
+      },
+      "sample_game": {
+        "winner": 1,
+        "moves": 9,
+        "elapsed_sec": 2.432,
+        "transcript": [
+          {
+            "player": 1,
+            "move": 28,
+            "location": [
+              3,
+              4
+            ]
+          },
+          {
+            "player": 2,
+            "move": 26,
+            "location": [
+              3,
+              2
+            ]
+          },
+          {
+            "player": 1,
+            "move": 35,
+            "location": [
+              4,
+              3
+            ]
+          },
+          {
+            "player": 2,
+            "move": 18,
+            "location": [
+              2,
+              2
+            ]
+          },
+          {
+            "player": 1,
+            "move": 42,
+            "location": [
+              5,
+              2
+            ]
+          },
+          {
+            "player": 2,
+            "move": 10,
+            "location": [
+              1,
+              2
+            ]
+          },
+          {
+            "player": 1,
+            "move": 21,
+            "location": [
+              2,
+              5
+            ]
+          },
+          {
+            "player": 2,
+            "move": 34,
+            "location": [
+              4,
+              2
+            ]
+          },
+          {
+            "player": 1,
+            "move": 14,
+            "location": [
+              1,
+              6
+            ]
+          }
+        ],
+        "start_player": 0
+      }
+    },
+    "alpha_vs_pure_mcts": {
+      "summary": {
+        "games": 6,
+        "alpha_wins": 6,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "alpha_score_first": 1.0,
+        "alpha_score_second": 1.0,
+        "avg_moves": 9.5,
+        "avg_elapsed_sec": 2.288,
+        "avg_sec_per_move": 0.243
+      },
+      "sample_game": {
+        "winner": 1,
+        "moves": 9,
+        "elapsed_sec": 2.749,
+        "transcript": [
+          {
+            "player": 1,
+            "move": 28,
+            "location": [
+              3,
+              4
+            ]
+          },
+          {
+            "player": 2,
+            "move": 29,
+            "location": [
+              3,
+              5
+            ]
+          },
+          {
+            "player": 1,
+            "move": 35,
+            "location": [
+              4,
+              3
+            ]
+          },
+          {
+            "player": 2,
+            "move": 37,
+            "location": [
+              4,
+              5
+            ]
+          },
+          {
+            "player": 1,
+            "move": 21,
+            "location": [
+              2,
+              5
+            ]
+          },
+          {
+            "player": 2,
+            "move": 27,
+            "location": [
+              3,
+              3
+            ]
+          },
+          {
+            "player": 1,
+            "move": 42,
+            "location": [
+              5,
+              2
+            ]
+          },
+          {
+            "player": 2,
+            "move": 14,
+            "location": [
+              1,
+              6
+            ]
+          },
+          {
+            "player": 1,
+            "move": 49,
+            "location": [
+              6,
+              1
+            ]
+          }
+        ],
+        "start_player": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "config": {
+    "board": "8x8",
+    "n_in_row": 5,
+    "model_file": "best_policy_8_8_5.model",
+    "games_per_setting": 6,
+    "seed": 20260521,
+    "opponent": "heuristic"
+  },
+  "settings": [
+    {
+      "alpha_playouts": 40,
+      "summary": {
+        "games": 6,
+        "alpha_wins": 6,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "alpha_score_first": 1.0,
+        "alpha_score_second": 1.0,
+        "avg_moves": 10.5,
+        "avg_elapsed_sec": 0.518,
+        "avg_sec_per_move": 0.05
+      }
+    },
+    {
+      "alpha_playouts": 80,
+      "summary": {
+        "games": 6,
+        "alpha_wins": 6,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "alpha_score_first": 1.0,
+        "alpha_score_second": 1.0,
+        "avg_moves": 10.5,
+        "avg_elapsed_sec": 0.849,
+        "avg_sec_per_move": 0.081
+      }
+    },
+    {
+      "alpha_playouts": 120,
+      "summary": {
+        "games": 6,
+        "alpha_wins": 6,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "alpha_score_first": 1.0,
+        "alpha_score_second": 1.0,
+        "avg_moves": 10.5,
+        "avg_elapsed_sec": 1.219,
+        "avg_sec_per_move": 0.117
+      }
+    },
+    {
+      "alpha_playouts": 200,
+      "summary": {
+        "games": 6,
+        "alpha_wins": 6,
+        "opponent_wins": 0,
+        "ties": 0,
+        "alpha_score": 1.0,
+        "alpha_score_first": 1.0,
+        "alpha_score_second": 1.0,
+        "avg_moves": 10.5,
+        "avg_elapsed_sec": 2.083,
+        "avg_sec_per_move": 0.2
+      }
+    }
+  ]
+}

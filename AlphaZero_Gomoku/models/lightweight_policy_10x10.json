@@ -1,0 +1,56 @@
+{
+  "board_width": 10,
+  "board_height": 10,
+  "n_in_row": 5,
+  "action_features": [
+    "win_now",
+    "block_win",
+    "own_line",
+    "opp_line",
+    "own_open",
+    "opp_open",
+    "own_four",
+    "opp_four",
+    "own_three",
+    "opp_three",
+    "nearby",
+    "center"
+  ],
+  "value_features": [
+    "own_best_line",
+    "opp_best_line",
+    "own_four_count",
+    "opp_four_count",
+    "own_three_count",
+    "opp_three_count",
+    "stone_diff",
+    "center_control"
+  ],
+  "action_weights": [
+    7.998273421710826,
+    7.187105794541371,
+    2.2322979307777757,
+    1.780609701210699,
+    0.8682636669675304,
+    0.8165023029758991,
+    4.883767828194634,
+    4.411819611435993,
+    2.2280747462550234,
+    1.9451371111139504,
+    0.4965324888427833,
+    1.094229729824762
+  ],
+  "value_weights": [
+    1.5639597598890749,
+    -1.457200612086779,
+    2.782162568804144,
+    -2.7721802445739656,
+    1.2016752460439333,
+    -1.1842933409277434,
+    0.2307225155114667,
+    0.35710627594922784
+  ],
+  "bias": 2.172888373927679e-16,
+  "value_bias": 0.12556793187862877,
+  "note": "Lightweight self-play-trained Gomoku policy-value model."
+}

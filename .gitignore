@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+~$*
+
+# Report render outputs generated for visual QA
+reports/rendered_report*/
+
+# Intermediate report drafts. Keep the final enriched report tracked.
+AlphaGo与围棋AI家族_实验报告.docx
+AlphaGo与围棋AI家族_实验报告_8x8强化版.docx
+AlphaGo与围棋AI家族_实验报告_10x10训练版.docx
+AlphaGo与围棋AI家族_实验报告_最终版.docx
+
+# Ad-hoc smoke-test outputs
+AlphaZero_Gomoku/experiments/repo_smoke_*.json
+
+# Local backup of the upstream repository metadata, kept only to avoid adding
+# AlphaZero_Gomoku as a nested Git repository.
+AlphaZero_Gomoku/.git_upstream_backup/
